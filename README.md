@@ -14,4 +14,4 @@ Note: Chocolatey's chocolateypackageupdater will keep all the choco install'd st
   - Feel free to contribute PRs, but stick to adding apps that a majority of people will use. 
 	
 ## Known issues
-     - In my experience, running the gem installs batch file fails due to an "SSL" issue. It seems to be that Chocolatey doesn't install the latest version of Ruby or some Ruby gems which causes havoc. A workaround can be seen in the batch file, so open it in a text editor and run the commands mentioned before trying the batch file again.
+  - In my experience, running the gem installs batch file fails due to an "SSL" issue. It seems to be that Chocolatey doesn't install the latest version of Ruby or some Ruby gems which causes havoc. A workaround can be seen in the batch file, so open it in a text editor and run the commands mentioned before trying the batch file again.
