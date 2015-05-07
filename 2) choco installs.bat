@@ -38,6 +38,7 @@ choco install -y nuget.commandline
 :: Merge tools
 ::choco install -y beyondcompare
 ::choco install -y winmerge
+::choco install -y p4merge
 
 :: Databases
 ::choco install -y mongodb
