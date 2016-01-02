@@ -3,10 +3,10 @@ A series of Windows batch files to bootstrap a PC with apps, dev tools, command 
 Harnesses the power of Chocolatey, npm, Ruby gems, etc.
 
 ## To use
-  1. Fork the repo to your machine.
-  2. Customise the choco, npm and gem install .bat files to your liking. I've added everything I think is necessary in there but commented most of them out. Do a sweep uncommenting the things you need.
-  3. Run, as an administrator, all the batch files in order.
-  4. Commit and push changes to your fork for later.
+  1. Get the .bat files (fork if you can or download the latest release).
+  2. Customise the choco, npm and gem install .bat files to your liking. They are pre-filled with lines for you to uncomment, and you can add lines as needed given the correct package name ([Chocolatey Gallery](https://chocolatey.org/packages), [npm](https://www.npmjs.com/), [RubyGems](https://rubygems.org/)). 
+  3. Run, as an administrator, the batch files in order.
+  4. (Optional) Commit and push changes to your fork (creating one now if needed) for next time.
 
 Note: Chocolatey's chocolateypackageupdater will keep all the choco install'd stuff up to date. Use the relevant ruby, gem and npm commands to keep those up to date. (Thought: might add a batch file that has all those in it for running occassionally).
 
