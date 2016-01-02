@@ -5,7 +5,11 @@ Harnesses the power of Chocolatey, npm, Ruby gems, etc.
 ## To use
     1. Get the .bat files (fork if you can or download the latest release).
     2. Customise the choco, npm and gem install .bat files to your liking. They are pre-filled with lines for you to uncomment, and you can add lines as needed given the correct package name ([Chocolatey Gallery](https://chocolatey.org/packages), [npm](https://www.npmjs.com/), [RubyGems](https://rubygems.org/)). 
-    3. Run, as an administrator, the numbered batch files in order.
+    3. Run, as an administrator, the following batch files in order:
+        - 1) install chocolatey.bat
+        - 2) choco installs.bat
+        - 3) npm installs.bat (but only if you installed nodejs)
+        - 4) gem installs.bat (but only if you installed ruby)
     4. (Optional) Commit and push changes to your fork (creating one now if needed) for next time.
 
 ## To keep up to date
