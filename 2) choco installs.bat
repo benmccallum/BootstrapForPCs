@@ -1,6 +1,6 @@
 :: Development tools
-cinst -y nodejs.install
-cinst -y ruby
+::cinst -y nodejs.install
+::cinst -y ruby
 ::cinst -y fiddler
 ::cinst -y westwindwebsurge
 ::cinst -y compass
@@ -19,7 +19,7 @@ cinst -y ruby
 ::cinst -y sourcetree
 
 :: IDEs / text editors
-::cinst -y vscode
+::cinst -y visualstudiocode
 ::cinst -y notepadplusplus.install
 ::cinst -y brackets
 ::cinst -y sublimetext3
