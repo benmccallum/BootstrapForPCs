@@ -5,8 +5,8 @@ Harnesses the power of [winget](https://github.com/microsoft/winget-cli).
 ## To use
     1. Clone/fork/download this repo.
     2. Install [winget](https://github.com/microsoft/winget-cli).
-	3. Customize the batch files to your liking, uncommenting lines for the apps you want.
-    4. (Optional) Commit and push changes to your fork (creating one now if needed) for next time.
+	3. Run the installers (.cmd files) you like
+    4. (Optional) Fork your own version with the installers you want.
 
 ## To keep up to date
     1. TBC

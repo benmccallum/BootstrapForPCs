@@ -1,0 +1,1 @@
+winget install SparkLabs.Viscosity
